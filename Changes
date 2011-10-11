@@ -23,3 +23,5 @@ Revision history for String-FriendlyID
 0.018   Aug 20, 2010/19:38
         Fix cpan bug #60330
         Forgot in MANIFEST
+0.019   Oct 11, 2011/11:12
+        Switched to Mouse, made code resizing dynamic via method size

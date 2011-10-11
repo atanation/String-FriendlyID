@@ -2,7 +2,7 @@ package String::FriendlyID;
 
 use warnings;
 use strict;
-use Moose;
+use Mouse;
 
 =head1 NAME 
 
@@ -14,7 +14,7 @@ Version 0.018
 
 =cut
 
-our $VERSION = '0.018';
+our $VERSION = '0.019';
 
 =head1 SYNOPSIS
 
@@ -78,7 +78,7 @@ it later.
 =cut
 
 has 'size' => (
-    is              => 'ro',
+    is              => 'rw',
     isa             => 'Int',
     lazy            => 1,
     default         => sub { 999999999999 },
