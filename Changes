@@ -25,3 +25,5 @@ Revision history for String-FriendlyID
         Forgot in MANIFEST
 0.019   Oct 11, 2011/11:12
         Switched to Mouse, made code resizing dynamic via method size
+1.000   November 7, 2016
+        Removed 'no Moose' to lose Moose Dependency
